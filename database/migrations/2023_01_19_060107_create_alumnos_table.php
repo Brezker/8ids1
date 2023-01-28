@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('nombre');
             $table->string('matricula');
             $table->integer('edad');
-
+            $table->timestamps();
         });
     }
 
